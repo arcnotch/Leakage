@@ -1,0 +1,1 @@
+py -2 dnschef.py --file dnschef.ini -q

